@@ -18,7 +18,7 @@ public class BaseClass {
 	@BeforeMethod
 	public void browser_launch() throws IOException
 	{
-		File f = new File("C:\\Users\\jitender.ahuja\\eclipse-workspace\\Project_9_2\\OR.properties");
+		File f = new File("C:\\Users\\jitender.ahuja\\git\\Class_17\\Project_9_2\\OR.properties");
 		FileInputStream fis = new FileInputStream(f);
 		pr = new Properties();
 		pr.load(fis);
